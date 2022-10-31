@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    padding: 0px 0px;
+    display: block;
+    /* background-color: rgb(216, 145, 145); */
+    color: white;
+    text-align: center;
+    /* background-image: url(/images/new-background.png); */
+    
+
+}
+.all{
+    background-image: url(/images/new-background.png);
+}
+.header{
+    display: flex;
+    background-color: rgb(216, 145, 145);
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-size: 20px;
+
+}
+.header .nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header .nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+ 
+}
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(27, 24, 20);   
+    
+}
+/* ----------------------------1st Container------------------- */
+.profile-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.profile-info{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.profile-container .first_image img{
+    width: 100%; 
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+/* ------------------------2nd Container ---------------------- */
+.profile-container2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.profile-details{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.profile-container2 .new-img{
+    width: 40%; 
+    padding: 30px;
+    
+}
+
+
+
+/* -------------------- footer ----------------------- */
+.footer-socials i{
+    color: pink;
+    font-size: 50px;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.footer{
+    text-align: center;
+    background-color:pink;
+
+}
+
+.footer-contacts{
+    text-align: center;
+    background-color:pink ;
+}
+.box {
+    float: left;
+    text-align: center;
+    padding: 50px;
+    width: 33.3%;
+    background-color: white;
+    color: aliceblue;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+
+    }
+
+.bg-fb{
+    background-color: black;
+}
+.bg-ig{
+    background-color: black;
+}
+.bg-tw{
+    background-color: black;
+}
+  .footer-two{
+    text-align: center;
+    background-color: rgb(216, 145, 145);
+  }  
+.h3 .h4 {
+ font-size: 20px;
+ text-align: left;
+}
+.container .h1{
+    text-align: center;
+    background-color: pink;
+    padding: 20px;
+    justify-content: center;
+   
+}
+
+
+

@@ -1,0 +1,231 @@
+body {
+    margin: 0px;
+    padding: 0px 0px;
+    display: block;
+    background-color: rgb(216, 145, 145);
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(grey, pink);
+    
+
+}
+.header2{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+
+
+}
+.header2 .nav2 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header2 .nav2 ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+ 
+}
+.header2 .nav2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.nav2 ul li a:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+    
+    
+    
+}
+/* ------------------------- 1st Container ------------------------- */
+.first_image img{
+    width:  80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: right;
+
+}
+.profile-container .profile-info2{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.first_image2 img{
+    width:  50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: left;
+    float: left;
+
+}
+
+.profile-container .profile-info3{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+   
+}
+
+.first_image3 img{
+    width:  50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: left;
+    float: left;
+
+}
+
+.profile-container .profile-info4{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+   
+}
+/* -------------- 2nd Container --------------- */
+.pro-info2 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  
+
+}
+.pro-info2 h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+/* --------- 4th Container -------- */
+.location{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+  
+
+}
+.bg-loc{
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+
+
+ p{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+    
+}
+
+.location-list img{
+    width:  40%;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-direction: left;
+}
+.office p{
+/*  
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;  */
+    /* float: right; */
+    text-align: center;
+    padding: 50px;
+    flex-direction: row;
+   
+}
+
+/* ---------------------------- footer  --------------------- */
+.footer-socials i{
+    color: pink;
+    font-size: 60px;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.footer{
+    text-align: center;
+    background-color:pink;
+
+}
+
+.footer-contacts{
+    text-align: center;
+    background-color:pink ;
+}
+.box {
+    float: right;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    color: aliceblue;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+
+    }
+
+.bg-fb{
+    background-color: black;
+}
+.bg-ig{
+    background-color: black;
+}
+.bg-tw{
+    background-color: black;
+}
+  .footer-two{
+    text-align: center;
+    background-color: rgb(216, 145, 145);
+  }  
+.h3 .h4 {
+ font-size: 20px;
+ text-align: left;
+}
+.container .h1{
+    text-align: center;
+    background-color: pink;
+    padding: 20px;
+    justify-content: center;
+   
+}
+
+
+
